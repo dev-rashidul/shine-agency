@@ -298,50 +298,52 @@
               </h2>
             </div>
             <div class="portfolio__container pt-50">
-              <img
-                src="assets/images/gallery-img1.webp"
-                class="custom-image image-1"
-                alt="gallery-img1"
-              />
-              <img
-                src="assets/images/gallery-img2.webp"
-                class="custom-image image-2"
-                alt="gallery-img2"
-              />
-              <img
-                src="assets/images/gallery-img3.webp"
-                class="custom-image image-3"
-                alt="gallery-img3"
-              />
-              <img
-                src="assets/images/gallery-img4.webp"
-                class="custom-image image-4"
-                alt="gallery-img4"
-              />
+              <div class="image image-1">
+                <img src="assets/images/gallery-img1.webp" alt="gallery-img1" />
+              </div>
+
+              <div class="image image-2">
+                <img src="assets/images/gallery-img2.webp" alt="gallery-img2" />
+              </div>
+              <div class="image image-3">
+                <img src="assets/images/gallery-img3.webp" alt="gallery-img3" />
+              </div>
+              <div class="image image-4">
+                <img src="assets/images/gallery-img4.webp" alt="gallery-img4" />
+              </div>
             </div>
             <div class="portfolio__container pt-20">
-              <img
-                src="assets/images/gallery-img5.webp"
-                class="custom-image image-5"
-                alt="gallery-img5"
-              />
-              <img
-                src="assets/images/gallery-img6.webp"
-                class="custom-image image-6"
-                alt="gallery-img6"
-              />
-              <img
-                src="assets/images/gallery-img7.webp"
-                class="custom-image image-7"
-                alt="gallery-img7"
-              />
-              <img
-                src="assets/images/gallery-img8.webp"
-                class="custom-image image-8"
-                alt="gallery-img8"
-              />
+              <div class="image image-5">
+                <img src="assets/images/gallery-img5.webp" alt="gallery-img5" />
+              </div>
+              <div class="image image-6">
+                <img src="assets/images/gallery-img6.webp" alt="gallery-img6" />
+              </div>
+              <div class="image image-7">
+                <img src="assets/images/gallery-img7.webp" alt="gallery-img7" />
+              </div>
+              <div class="image image-8">
+                <img src="assets/images/gallery-img8.webp" alt="gallery-img8" />
+              </div>
             </div>
           </div>
+          <div class="preview-box">
+            <div class="details">
+              <span class="title"
+                >Image
+                <p class="current-img"></p>
+                of
+                <p class="total-img"></p
+              ></span>
+              <span class="icon fas fa-times"></span>
+            </div>
+            <div class="image-box">
+              <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+              <div class="slide next"><i class="fas fa-angle-right"></i></div>
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div class="shadow"></div>
         </div>
       </section>
 
@@ -671,13 +673,10 @@
     <!-- Bootstrap JavaScript -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 
-    <script>
-      // JavaScript For Sticky Header
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-      window.addEventListener("scroll", function () {
-        const header = document.querySelector(".navbar");
-        header.classList.toggle("sticky", window.scrollY > 100);
-      });
-    </script>
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

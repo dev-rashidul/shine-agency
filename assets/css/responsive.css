@@ -71,7 +71,8 @@
     padding: 15px 10px;
   }
 
-  .portfolio__container img {
+  .portfolio__container .image,
+  .portfolio__container .image img {
     width: 50%;
     padding: 10px;
   }
@@ -114,8 +115,9 @@
     padding: 15px 20px;
   }
 
-  .portfolio__container img {
-    width: 100%;
+  .portfolio__container .image,
+  .portfolio__container .image img {
+    width: 100% !important;
     padding: 10px;
   }
 
