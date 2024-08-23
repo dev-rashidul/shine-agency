@@ -439,6 +439,10 @@ nav.navbar {
   width: 17.8%;
 }
 
+.image {
+  cursor: pointer;
+}
+
 .preview-box {
   position: fixed;
   top: 50%;
@@ -479,6 +483,10 @@ nav.navbar {
   margin: 0 5px;
 }
 
+.details span.icon {
+  cursor: pointer;
+}
+
 .preview-box .image-box {
   display: flex;
   width: 100%;
@@ -489,7 +497,7 @@ nav.navbar {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: #fff;
+  color: var(--yellow);
   font-size: 30px;
   cursor: pointer;
   height: 50px;
