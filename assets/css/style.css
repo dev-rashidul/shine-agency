@@ -78,8 +78,8 @@ img {
   color: var(--black);
 }
 
-.section__pt {
-  padding-top: 120px;
+.section__spacing {
+  padding: 60px 0;
 }
 
 .section__title {
@@ -304,7 +304,7 @@ nav.navbar {
 /* About Section CSS Start */
 
 .about__wrapper {
-  padding-top: 100px;
+  padding: 100px 0 60px;
 }
 
 .about__content h2,
@@ -323,10 +323,6 @@ nav.navbar {
 
 .mission__content {
   padding-right: 10px;
-}
-
-.mission__wrapper {
-  padding-bottom: 12px;
 }
 
 /* About Section CSS End */
