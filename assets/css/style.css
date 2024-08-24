@@ -393,6 +393,11 @@ nav.navbar {
 
 /* Portfolio Section CSS Start */
 
+#Portfolio,
+#About {
+  scroll-margin-top: 7vh;
+}
+
 .portfolio__container {
   display: flex;
   flex-wrap: wrap;
@@ -460,6 +465,7 @@ nav.navbar {
   pointer-events: auto;
   transform: translate(-50%, -50%) scale(1);
   transition: all 0.3s ease;
+  z-index: 999;
 }
 
 .preview-box .details {
