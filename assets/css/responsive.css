@@ -72,6 +72,11 @@
     width: 50%;
     padding: 10px;
   }
+
+  .common__hero__content h1,
+  .service__top h2 {
+    font-size: 48px;
+  }
 }
 
 /* Min Width 300px and Max Width 768px */
@@ -123,5 +128,23 @@
 
   .newsletter__container {
     padding: 20px 10px;
+  }
+
+  /* Service Page Responsive CSS */
+  .common__hero__wrapper {
+    padding: 160px 0 80px;
+  }
+
+  .common__hero__content h1,
+  .service__top h2 {
+    font-size: 36px;
+  }
+
+  .hero__breadcrumb ul li a {
+    font-size: 16px;
+  }
+
+  .services__wrapper {
+    padding: 60px 0;
   }
 }

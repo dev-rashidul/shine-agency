@@ -336,6 +336,7 @@ nav.navbar {
 .service__card {
   background: rgba(255, 255, 255, 0.06);
   padding: 20px 20px 35px;
+  margin-top: 4px;
   border: 1px solid rgba(255, 255, 255, 0.11);
   border-radius: 12px;
 }
@@ -708,7 +709,7 @@ nav.navbar {
 
 .newsletter__wrapper {
   position: relative;
-  margin-bottom: -66px;
+  margin-bottom: -126px;
 }
 
 .newsletter__container {
@@ -831,3 +832,67 @@ nav.navbar {
 }
 
 /* Footer Part CSS End */
+
+/* ========***========
+Service Page CSS
+========***======== */
+
+/* Common Hero Section CSS Start */
+
+.common__hero__wrapper {
+  padding: 200px 0 140px;
+}
+
+.service__hero__wrapper {
+  background: url(../images/service-hero-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__breadcrumb ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 144.444%;
+  text-transform: uppercase;
+  color: var(--white, #fff);
+  transition: all 0.3s ease-in-out;
+}
+
+.hero__breadcrumb ul li a:hover {
+  color: var(--yellow);
+}
+
+.hero__breadcrumb ul li i {
+  color: var(--white, #fff);
+}
+
+.common__hero__content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 121.429%;
+  color: var(--black-50, #fbfbfb);
+  padding-top: 25px;
+  margin-bottom: 0;
+}
+
+/* Common Hero Section CSS End */
+
+/* Service Section CSS Start */
+
+.services__wrapper {
+  padding: 120px 0 60px;
+}
+
+.service__container {
+  padding-top: 40px;
+}
+
+.service__top h2 {
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 121.429%;
+  color: var(--black-50, #fbfbfb);
+}
+
+/* Service Section CSS End */
