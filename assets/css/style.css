@@ -440,6 +440,16 @@ nav.navbar {
   width: 17.8%;
 }
 
+.image-gif,
+.image-9,
+.image-10,
+.image-11,
+.image-12,
+.image-13,
+.image-14 {
+  width: 25%;
+}
+
 .image {
   cursor: pointer;
 }
