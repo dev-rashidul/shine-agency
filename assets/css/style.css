@@ -337,6 +337,8 @@ nav.navbar {
 }
 
 .service__card {
+  position: relative;
+  height: 100%;
   background: rgba(255, 255, 255, 0.06);
   padding: 20px 20px 35px;
   margin-top: 4px;
@@ -353,6 +355,10 @@ nav.navbar {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.11);
   border-radius: 800px;
+}
+
+.service__card-content {
+  padding-bottom: 60px;
 }
 
 .service__card-content h4 {
@@ -372,7 +378,9 @@ nav.navbar {
 }
 
 .service__card-footer {
-  padding-top: 35px;
+  position: absolute;
+  bottom: 35px;
+  width: 90%;
 }
 
 .explore__btn a {
@@ -925,7 +933,7 @@ Contact Page CSS
   text-align: center;
 }
 
-.get__in__touch__top span {
+.get__in__touch__top a {
   font-size: 18px;
   font-weight: 500;
   line-height: 133.333%;
