@@ -77,6 +77,32 @@
   .service__top h2 {
     font-size: 48px;
   }
+
+  /* Contact Page Responsive CSS */
+
+  .get__in__touch__wrapper {
+    padding-top: 60px;
+  }
+
+  .get__in__touch__top span {
+    font-size: 16px;
+  }
+
+  .get__in__touch__top h2 {
+    font-size: 36px;
+  }
+
+  .git__container {
+    padding-top: 50px;
+  }
+
+  .contact__wrapper {
+    padding: 60px 0 40px;
+  }
+
+  .contact__form {
+    padding: 20px;
+  }
 }
 
 /* Min Width 300px and Max Width 768px */
@@ -146,5 +172,31 @@
 
   .services__wrapper {
     padding: 60px 0;
+  }
+
+  /* Contact Page Responsive CSS */
+
+  .get__in__touch__wrapper {
+    padding-top: 60px;
+  }
+
+  .get__in__touch__top span {
+    font-size: 16px;
+  }
+
+  .get__in__touch__top h2 {
+    font-size: 36px;
+  }
+
+  .git__container {
+    padding-top: 50px;
+  }
+
+  .contact__wrapper {
+    padding: 60px 0 40px;
+  }
+
+  .contact__form {
+    padding: 20px;
   }
 }

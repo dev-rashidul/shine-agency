@@ -21,8 +21,11 @@ body {
   --black: #000000;
   --black-50: #fbfbfb;
   --black-300: #d2d3d6;
+  --black-200: #ebebeb;
   --black-400: #a0a4ad;
+  --black-500: #737780;
   --black-600: #585c67;
+  --black-800: #2d3340;
   --black-900: #171b26;
 }
 
@@ -896,3 +899,171 @@ Service Page CSS
 }
 
 /* Service Section CSS End */
+
+/* ========***========
+Contact Page CSS
+========***======== */
+
+/* Contact Hero Section CSS Start */
+
+.contact__hero__wrapper {
+  background: url(../images/contact-hero-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 220px 0 180px;
+}
+
+/* Contact Hero Section CSS End */
+
+/* Get In Touch Section CSS Start */
+
+.get__in__touch__wrapper {
+  padding-top: 120px;
+}
+
+.get__in__touch__top {
+  text-align: center;
+}
+
+.get__in__touch__top span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 133.333%;
+  color: var(--black-200, #ebebeb);
+  background: rgba(255, 241, 232, 0.12);
+  padding: 16px 24px;
+  border-radius: 100px;
+}
+
+.get__in__touch__top h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 116.667%;
+  padding-top: 30px;
+  margin-bottom: 0;
+  color: var(--white, #fff);
+}
+
+.git__container {
+  padding-top: 70px;
+}
+
+.git__card {
+  height: 100%;
+  text-align: center;
+  padding: 50px 55px;
+  background: #0f0f0f;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+}
+
+.git__card-content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 132%;
+  color: var(--white, #fff);
+  padding: 20px 0 10px;
+}
+
+.git__card-content p,
+.git__card-content a {
+  font-size: 16px;
+  line-height: 168%;
+  color: var(--black-300, #d2d3d6);
+  margin-bottom: 0;
+}
+
+.git__card-content a {
+  display: block;
+  padding-bottom: 8px;
+}
+
+.git__card-button {
+  padding-top: 20px;
+}
+
+.git__card-button a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 136%;
+  letter-spacing: 0.16px;
+  color: var(--yellow);
+}
+
+.git__card-button a i {
+  padding-left: 5px;
+}
+
+/* Get In Touch Section CSS End */
+
+/* Contact Section CSS Start */
+
+.contact__wrapper {
+  padding: 120px 0 40px;
+}
+
+.contact__content h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 122.222%;
+  color: var(--white, #fff);
+}
+
+.contact__content-list img {
+  width: 32px;
+  padding-right: 6px;
+}
+
+.contact__content-list p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 162.5%;
+  margin-bottom: 0;
+  padding-left: 10px;
+  color: var(--black-300, #d2d3d6);
+}
+
+.contact__form {
+  padding: 30px;
+  background: #0f0f0f;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 8px;
+}
+
+.form__input label {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black-500, #737780);
+  padding-bottom: 15px;
+}
+
+.form__input span {
+  color: var(--yellow);
+}
+
+.form__input input {
+  width: 100%;
+  padding: 14px 15px;
+  color: var(--white);
+  background: #1e1e1e;
+  border: none;
+  border-radius: 8px;
+}
+
+.form__input input:focus {
+  outline: 0;
+}
+
+.submit__btn input {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 20px;
+  color: var(--black-800, #2d3340);
+  background: var(--yellow);
+  box-shadow: 0px 8px 41px 0px rgba(0, 94, 156, 0.06);
+  border: none;
+  border-radius: 8px;
+}
+
+/* Contact Section CSS End */
