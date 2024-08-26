@@ -156,6 +156,10 @@
     padding: 20px 10px;
   }
 
+  .newsletter__form .submit__btn {
+    padding: 10px 15px;
+  }
+
   /* Service Page Responsive CSS */
   .common__hero__wrapper {
     padding: 160px 0 80px;
